@@ -22,7 +22,7 @@ class MyContentProvider : ContentProvider() {
         //將資料新增於資料庫並回傳此筆紀錄的Id
         val rowId = dbrw.insert("myTable", null, book)
         // 回傳此筆紀錄的Uri
-        return Uri.parse("content://com.example.lab16/$rowId")
+        return Uri.parse("content://com.example.kotlinhomework6/$rowId")
     }
 
     override fun update(

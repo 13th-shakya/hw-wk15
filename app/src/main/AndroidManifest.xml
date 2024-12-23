@@ -27,6 +27,14 @@
         <activity
             android:name=".BooksMasterActivity"
             android:exported="false" />
+        <activity
+            android:name=".BooksSlaveActivity"
+            android:exported="false" />
+        <provider
+            android:name=".MyContentProvider"
+            android:authorities="com.example.kotlinhomework6"
+            android:enabled="true"
+            android:exported="false" />
     </application>
 
 </manifest>

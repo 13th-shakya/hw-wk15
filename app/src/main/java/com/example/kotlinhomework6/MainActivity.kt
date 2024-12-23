@@ -25,6 +25,7 @@ class MainActivity : AppCompatActivity() {
         mapOf(
             binding.btnBooks to BooksActivity::class.java,
             binding.btnBooksMaster to BooksMasterActivity::class.java,
+            binding.btnBooksSlave to BooksSlaveActivity::class.java,
         ).forEach { (button, activity) ->
             button.setOnClickListener {
                 Intent(this@MainActivity, activity).also {
